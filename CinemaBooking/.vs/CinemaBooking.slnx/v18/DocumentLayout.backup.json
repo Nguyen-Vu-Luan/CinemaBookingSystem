@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\theloaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\theloaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\suatchieuxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\suatchieuxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\controllers\\datvecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\controllers\\datvecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\datve\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\datve\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\datve\\chonghe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\datve\\chonghe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\theloais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\theloais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\suatchieux\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\suatchieux\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\phims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\phims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|c:\\users\\vukhang\\desktop\\cinemabookingsystem\\cinemabooking\\cinemabooking\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{014204C7-B1EA-4CF3-AE92-A2BAA2178639}|CinemaBooking\\CinemaBooking.csproj|solutionrelative:cinemabooking\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhimsController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\PhimsController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\PhimsController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\PhimsController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\PhimsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:30:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SuatChieuxController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\SuatChieuxController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\SuatChieuxController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\SuatChieuxController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\SuatChieuxController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:30:13.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TheLoaisController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\TheLoaisController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\TheLoaisController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\TheLoaisController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\TheLoaisController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:30:18.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThongKeController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\ThongKeController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\ThongKeController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\ThongKeController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\ThongKeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:30:23.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:43:50.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:29:15.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoidungController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\NguoidungController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\NguoidungController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\NguoidungController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\NguoidungController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:29:11.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:45:11.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatVeController.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\DatVeController.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Controllers\\DatVeController.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Controllers\\DatVeController.cs",
+              "RelativeToolTip": "CinemaBooking\\Controllers\\DatVeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:27:46.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LichSu.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\DatVe\\LichSu.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\DatVe\\LichSu.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\DatVe\\LichSu.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\DatVe\\LichSu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:46:58.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ve.cs",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Models\\Ve.cs",
+              "RelativeDocumentMoniker": "CinemaBooking\\Models\\Ve.cs",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Models\\Ve.cs",
+              "RelativeToolTip": "CinemaBooking\\Models\\Ve.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:04:05.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChonGhe.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\DatVe\\ChonGhe.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\DatVe\\ChonGhe.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\DatVe\\ChonGhe.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\DatVe\\ChonGhe.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:47:03.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\TheLoais\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\TheLoais\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\TheLoais\\Index.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\TheLoais\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:45:44.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\SuatChieux\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\SuatChieux\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\SuatChieux\\Index.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\SuatChieux\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:45:49.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABcAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:45:56.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Nguoidung\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\Nguoidung\\DangNhap.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Nguoidung\\DangNhap.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\Nguoidung\\DangNhap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:46:53.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\NguoiDungs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\NguoiDungs\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:46:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:45:54.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Phims\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaBooking\\Views\\Phims\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VuKhang\\Desktop\\CinemaBookingSystem\\CinemaBooking\\CinemaBooking\\Views\\Phims\\Index.cshtml",
+              "RelativeToolTip": "CinemaBooking\\Views\\Phims\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T00:44:12.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

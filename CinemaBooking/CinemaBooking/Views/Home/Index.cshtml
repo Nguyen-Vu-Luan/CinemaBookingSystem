@@ -1,0 +1,37 @@
+﻿@model IEnumerable<CinemaBooking.Models.Phim>
+
+@{
+    ViewBag.Title = "Trang Chủ - Phim Đang Chiếu";
+}
+
+<div class="container" style="margin-top: 30px;">
+    <h2 class="text-center text-uppercase" style="color: #f39c12; font-weight: 900; letter-spacing: 2px; margin-bottom: 40px;">
+        🎬 Phim Đang Chiếu
+    </h2>
+
+    <div class="row">
+        @foreach (var phim in Model)
+        {
+            <div class="col-md-5" style="margin-bottom: 30px;">
+                <div class="card h-100" style="border: none; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s;">
+
+                    <img src="~/Content/Images/@phim.HinhAnh" class="card-img-top" alt="@phim.TenPhim"
+                         style="height: 350px; object-fit: cover;"
+                         onerror="this.src='https://via.placeholder.com/350x500?text=Chua+Co+Anh'">
+
+                    <div class="card-body text-center" style="background-color: #fff;">
+                        <h5 class="card-title" style="font-weight: bold; color: #2c3e50; height: 50px; overflow: hidden;">
+                            @phim.TenPhim
+                        </h5>
+                        <p class="card-text text-muted" style="margin-bottom: 5px;">⏱ Thời lượng: @phim.ThoiLuong phút</p>
+                        <p class="card-text text-muted" style="margin-bottom: 15px;">🎬 Đạo diễn: @phim.DaoDien</p>
+
+                        <a href="/Home/ChiTiet?maPhim=@phim.MaPhim" class="btn btn-warning btn-block" style="font-weight: bold; border-radius: 20px;">
+                            🎟 Mua Vé Ngay
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

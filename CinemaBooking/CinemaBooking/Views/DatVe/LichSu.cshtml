@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CinemaBooking.Models.Ve>
+
+@{
+    ViewBag.Title = "Lịch Sử Đặt Vé";
+}
+
+<div class="container" style="margin-top: 40px; margin-bottom: 50px;">
+    <h2 style="color: #f39c12; font-weight: bold; text-transform: uppercase; border-left: 5px solid #e74c3c; padding-left: 15px;">
+        🎫 Lịch Sử Mua Vé Của Bạn
+    </h2>
+    <p class="text-muted">Cảm ơn bạn đã sử dụng dịch vụ của Cinema Booking!</p>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-responsive shadow-lg" style="border-radius: 10px; overflow: hidden;">
+            <table class="table table-hover table-bordered" style="background-color: #fff; margin-bottom: 0;">
+                <thead style="background-color: #2c3e50; color: #f39c12; text-align: center;">
+                    <tr>
+                        <th>Mã Vé</th>
+                        <th>Tên Phim</th>
+                        <th>Rạp Chiếu</th>
+                        <th>Thời Gian Chiếu</th>
+                        <th>Ghế Ngồi</th>
+                        <th>Ngày Đặt Vé</th>
+                        <th>Tổng Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ve in Model)
+                    {
+                        <tr style="text-align: center; vertical-align: middle;">
+                            <td style="font-weight: bold; color: #555;">#@ve.MaVe</td>
+                            <td style="font-weight: bold; color: #2980b9; text-align: left;">
+                                @ve.SuatChieu.Phim.TenPhim
+                            </td>
+                            <td>@ve.SuatChieu.PhongChieu</td>
+                            <td style="color: #e74c3c; font-weight: bold;">
+                                @ve.SuatChieu.ThoiGianChieu.ToString("HH:mm - dd/MM/yyyy")
+                            </td>
+                            <td>
+                                <span class="badge badge-success" style="font-size: 1rem; padding: 8px 12px;">
+                                    @ve.GheNgoi.ViTriGhe
+                                </span>
+                            </td>
+                            <td class="text-muted">@ve.NgayDat.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td style="font-weight: bold; font-size: 1.1rem; color: #27ae60;">
+                                @ve.TongTien.ToString("#,##0") VNĐ
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" style="margin-top: 30px; font-size: 1.2rem;">
+            Bạn chưa đặt vé nào. Hãy ra <a href="/" style="font-weight: bold; color: #e74c3c;">Trang chủ</a> để chọn cho mình một bộ phim hay nhé!
+        </div>
+    }
+</div>

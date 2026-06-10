@@ -1,0 +1,56 @@
+﻿@model CinemaBooking.Models.SuatChieu
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>SuatChieu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Phim.TenPhim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phim.TenPhim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThoiGianChieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThoiGianChieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhongChieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhongChieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaVe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaVe)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

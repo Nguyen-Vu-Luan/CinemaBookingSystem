@@ -1,0 +1,50 @@
+﻿@model CinemaBooking.Models.SuatChieu
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SuatChieu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Phim.TenPhim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phim.TenPhim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThoiGianChieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThoiGianChieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhongChieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhongChieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaVe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaVe)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSuatChieu }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

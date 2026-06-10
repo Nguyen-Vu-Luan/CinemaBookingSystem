@@ -1,0 +1,32 @@
+﻿@{ ViewBag.Title = "Thống kê Doanh thu"; }
+
+<div class="container mt-5">
+    <h2 class="text-center text-primary">📊 Biểu đồ Top 5 Phim Doanh Thu Cao Nhất</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <canvas id="doanhThuChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    var ctx = document.getElementById('doanhThuChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar', // Kiểu biểu đồ cột
+        data: {
+            labels: @Html.Raw(ViewBag.Labels), // Lấy tên phim từ Controller
+            datasets: [{
+                label: 'Doanh thu (VNĐ)',
+                data: @Html.Raw(ViewBag.Data), // Lấy dữ liệu tiền từ Controller
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+</script>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CinemaBooking.Models.SuatChieu>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Phim.TenPhim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThoiGianChieu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhongChieu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaVe)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phim.TenPhim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThoiGianChieu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhongChieu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaVe)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaSuatChieu }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaSuatChieu }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaSuatChieu })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,58 @@
+﻿@model CinemaBooking.Models.NguoiDung
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>NguoiDung</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.TaiKhoan)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TaiKhoan)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MatKhau)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MatKhau)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HoTen)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HoTen)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.VaiTro)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.VaiTro)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MaND }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

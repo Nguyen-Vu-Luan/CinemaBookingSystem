@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Cinema Booking", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <ul class="navbar-nav flex-grow-1">
+                @if (Session["VaiTro"] != null && Session["VaiTro"].ToString().Trim().ToUpper() == "ADMIN")
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmin" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #f39c12 !important; font-weight: bold;">
+                            ⚙️ Menu Quản Trị
+                        </a>
+                        <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownAdmin">
+                            <a class="dropdown-item" href="/Phims/Index">🎬 Quản lý Phim</a>
+                            <a class="dropdown-item" href="/TheLoais/Index">🏷️ Quản lý Thể Loại</a>
+                            <a class="dropdown-item" href="/SuatChieux/Index">📅 Quản lý Suất Chiếu</a>
+
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header text-muted">Báo cáo & Hệ thống</h6>
+
+                            <a class="dropdown-item" href="/ThongKe/Index">📊 Báo cáo Doanh thu</a>
+
+                            <a class="dropdown-item" href="/NguoiDungs/Index">👤 Quản lý Khách Hàng</a>
+
+                        </div>
+                    </li>
+                    <form class="d-flex" action="/Phims/Index" method="get" style="margin-left: 20px;">
+                        <input class="form-control me-2" type="search" name="searchString" placeholder="Tìm phim..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">🔍</button>
+                    </form>
+                }
+                else
+                {
+                    if (Session["TaiKhoan"] != null)
+                    {
+                        <li><a href="/DatVe/LichSu" class="nav-link">🎫 Vé của tôi</a></li>
+                    }
+                }
+            </ul>
+
+            
+
+            <ul class="navbar-nav">
+                @if (Session["TaiKhoan"] != null)
+                {
+                    <li class="nav-item d-flex align-items-center">
+                        <span class="nav-link" style="color: #f39c12 !important; font-weight: bold;">
+                            👋 Chào, @Session["TaiKhoan"]
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Nguoidung/DangXuat" class="btn btn-outline-danger btn-sm" style="margin-left: 15px; margin-top: 6px; border-radius: 20px;">Đăng xuất</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a href="/Nguoidung/DangNhap" class="btn btn-warning btn-sm" style="font-weight: bold; margin-top: 6px; border-radius: 20px; padding: 5px 20px;">🔑 Đăng Nhập</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
